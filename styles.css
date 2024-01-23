@@ -1,0 +1,88 @@
+body{
+    overflow: hidden;
+    background-color: #f9fff3;
+  
+
+}
+label{
+  display: block;
+}
+
+
+.bg-image1{
+  background-image: url("./../../../flower-blur.jpg");
+  background-origin: border-box;
+  background-size:110%;
+  height:100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 0;
+}
+.banner{
+  position: absolute;
+  top: 20vh;
+  background-color: #53555280;
+  box-shadow: 0 0 40px 8px #e7dfdf80 inset;
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#svg{
+width: 17%;
+fill: #f3f6fc;
+height: auto;
+}
+
+#welcome{
+  margin-top: 5vh;
+  
+}
+#log-in-color{
+  color:#228b22;
+  display: inline;
+  font-weight: 800;
+}
+
+#log-in-color:hover{
+  cursor: pointer;
+}
+
+#mention{
+  position: absolute;
+  top: 92vh;
+  left:32%;
+  color: #e9ebf1;
+  font-size: large;
+  font-weight: 700;
+  text-shadow: 0px 1px 5px rgba(0,0,0,1);
+}
+
+.LayoutMain{
+  margin: 8vh 3vw;
+}
+
+.formSt{
+  border: 1px solid #f9fdfd;
+  box-shadow: 4px 10px 5px 5px #e9ebf1;
+  margin-left: 0;
+  padding: 3vh 0;
+  padding-left: 3vw;
+}
+
+#ButtonGroup{
+  margin-top: -4vh;
+}
+
+.SubmitButton{
+  padding: 0.5rem 2rem;
+  font-weight: 800;
+  font-size: large;
+  margin-bottom: 2rem;
+}
+
+.adjust{
+  padding-right: 0;
+}
