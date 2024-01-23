@@ -28,36 +28,10 @@ label{
   display: flex;
   justify-content: center;
   align-items: center;
-  
-}
-#svg{
-width: 17%;
-fill: #f3f6fc;
-height: auto;
-}
-
-#welcome{
-  margin-top: 5vh;
-  
-}
-#log-in-color{
-  color:#228b22;
-  display: inline;
-  font-weight: 800;
-}
-
-#log-in-color:hover{
-  cursor: pointer;
-}
-
-#mention{
-  position: absolute;
-  top: 92vh;
-  left:32%;
   color: #e9ebf1;
-  font-size: large;
-  font-weight: 700;
   text-shadow: 0px 1px 5px rgba(0,0,0,1);
+  font-size: 2rem;
+  
 }
 
 .LayoutMain{
@@ -83,6 +57,42 @@ height: auto;
   margin-bottom: 2rem;
 }
 
-.adjust{
-  padding-right: 0;
-}
+#svg{
+  width: 17%;
+  fill: #f3f6fc;
+  height: auto;
+  }
+  
+  #welcome{
+    margin-top: 5vh;
+    
+  }
+  #log-in-color{
+    color:#228b22;
+    display: inline;
+    font-weight: 800;
+  }
+  
+  #log-in-color:hover{
+    cursor: pointer;
+  }
+  
+  #mention{
+    position: absolute;
+    top: 92vh;
+    left:32%;
+    color: #e9ebf1;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: 0px 1px 5px rgba(0,0,0,1);
+  }
+
+  input:invalid{
+    border: 1px solid #770e0e;
+    background-color: #8b222254;
+  }
+  
+  input:valid{
+    border: 1px solid #228b22;
+    background-color: #7dd87d5d;
+  }

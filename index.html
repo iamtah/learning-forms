@@ -10,8 +10,8 @@
     <title>Learning-Forms</title>
 </head>
 <body>
-    <div class="row align-items-center adjust">
-    <div class="col-4 bg-image1"><div class="banner"><img src="./../../../6flower.svg" alt="flower" id="svg"></div> <p id="mention">Photo By Eugene Golovesov</p></div>
+    <div class="row align-items-center">
+    <div class="col-4 bg-image1"><div class="banner">Green Project<img src="./../../../6flower.svg" alt="flower" id="svg"></div> <p id="mention">Photo By Eugene Golovesov</p></div>
     <main class="col-8">
         <div class="row row-cols-1">
             <div class="col">
@@ -24,35 +24,35 @@
                 
                     <div class="col">
                         <label for="first-name">First Name</label>
-                        <input type="text" name="first-name">
+                        <input type="text" name="first-name" required>
                     </div>
 
                     <div class="col">
                         <label for="second-name">Second Name</label>
-                        <input type="text" name="second-name" id="second-name">
+                        <input type="text" name="second-name" id="second-name" required>
                     </div>
 
 
                     <div class="col">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
 
                     <div class="col">
                         <label for="phone-number">Phone Number</label>
-                        <input type="tel" name="phone-number" id="phone-number">
+                        <input type="tel" name="phone-number" id="phone-number" required pattern="[0-9]{10}" placeholder="5554824000">
                     </div>
 
 
 
                     <div class="col">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </div>
 
                     <div class="col">
                         <label for="password-conf">Password Confirmation</label>
-                        <input type="password" name="password-conf" id="password-conf">
+                        <input type="password" name="password-conf" id="password-conf" required>
                     </div>
 
 
